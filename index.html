@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Marketplace Akun Game</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background: #f4f4f4;
+      margin: 0;
+      padding: 0;
+    }
+    header {
+      background: #222;
+      color: white;
+      padding: 20px;
+      text-align: center;
+    }
+    .container {
+      width: 90%;
+      max-width: 1000px;
+      margin: auto;
+      padding: 20px;
+    }
+    .card {
+      background: white;
+      padding: 20px;
+      border-radius: 10px;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+      margin-bottom: 20px;
+    }
+    .produk-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 20px;
+    }
+    .produk {
+      background: white;
+      border-radius: 10px;
+      padding: 15px;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+      text-align: center;
+    }
+    .produk img {
+      width: 100%;
+      border-radius: 10px;
+    }
+    .btn {
+      display: inline-block;
+      padding: 10px 15px;
+      background: #007bff;
+      color: white;
+      border-radius: 5px;
+      text-decoration: none;
+      margin-top: 10px;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Marketplace Akun Game</h1>
+    <p>Platform jual beli akun game dengan aman dan transparan*</p>
+  </header>
+
+  <div class="container">
+    <div class="card">
+      <h2>Disclaimer</h2>
+      <p>*Pastikan transaksi Anda mematuhi aturan & kebijakan ToS masing-masing game. Beberapa game melarang jual beli akun, jadi lakukan dengan risiko dan tanggung jawab sendiri.</p>
+    </div>
+
+    <h2>Daftar Akun</h2>
+    <div class="produk-grid">
+      <div class="produk">
+        <img src="https://via.placeholder.com/300x200" alt="Akun Game">
+        <h3>Akun Mobile Legends Mythical Glory</h3>
+        <p>Harga: Rp 850.000</p>
+        <a class="btn" href="#">Hubungi Penjual</a>
+      </div>
+
+      <div class="produk">
+        <img src="https://via.placeholder.com/300x200" alt="Akun Game">
+        <h3>Akun Genshin Impact AR55</h3>
+        <p>Harga: Rp 1.500.000</p>
+        <a class="btn" href="#">Hubungi Penjual</a>
+      </div>
+
+      <div class="produk">
+        <img src="https://via.placeholder.com/300x200" alt="Akun Game">
+        <h3>Akun Free Fire Sultan</h3>
+        <p>Harga: Rp 500.000</p>
+        <a class="btn" href="#">Hubungi Penjual</a>
+      </div>
+    </div>
+  </div>
+  <div class="container">
+    <div class="card">
+      <h2>Form Jual Akun</h2>
+      <form>
+        <label>Nama Game:</label><br>
+        <input type="text" style="width:100%;padding:8px;margin-bottom:10px;"><br>
+        <label>Deskripsi Akun:</label><br>
+        <textarea style="width:100%;padding:8px;margin-bottom:10px;"></textarea><br>
+        <label>Harga (Rp):</label><br>
+        <input type="number" style="width:100%;padding:8px;margin-bottom:10px;"><br>
+        <label>Nomor WhatsApp:</label><br>
+        <input type="text" style="width:100%;padding:8px;margin-bottom:10px;"><br>
+        <button type="button" style="padding:10px 15px;background:#28a745;color:white;border:none;border-radius:5px;">Upload Akun</button>
+      </form>
+    </div>
+
+    <div class="card">
+      <h2>Admin Panel</h2>
+      <p>Upload stok akun yang ingin dijual:</p>
+      <form>
+        <label>Nama Game:</label><br>
+        <input type="text" style="width:100%;padding:8px;margin-bottom:10px;"><br>
+        <label>Detail Akun (Rank/Level/Character):</label><br>
+        <textarea style="width:100%;padding:8px;margin-bottom:10px;"></textarea><br>
+        <label>Harga (Rp):</label><br>
+        <input type="number" style="width:100%;padding:8px;margin-bottom:10px;"><br>
+        <label>Link / Nomor WhatsApp Admin:</label><br>
+        <input type="text" style="width:100%;padding:8px;margin-bottom:10px;"><br>
+        <button type="button" style="padding:10px 15px;background:#ff9800;color:white;border:none;border-radius:5px;">Upload Stok</button>
+      </form>
+    </div>
+  </div>
+</body>
+</html>
